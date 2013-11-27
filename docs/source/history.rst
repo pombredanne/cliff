@@ -2,6 +2,20 @@
  Release History
 =================
 
+dev
+
+- Fix the arguments passed to commands when they are instantiated to
+  pull out help. See https://github.com/dreamhost/cliff/issues/52 for
+  details.
+- Add bash command completion. (Contributed by Terry Howe)
+- Use stevedore to load formatter plugins.
+
+1.4.5
+
+- Update the pyparsing dependency to a version that supports both
+  Python 2 and Python 3.
+- Add PyPy testing.
+
 1.4.4
 
 - Provide better error handling for unknown commands run from the
